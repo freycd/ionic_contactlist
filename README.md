@@ -2,7 +2,7 @@
 Ionic + Angular2 + Typescript +FireBase practice
 # 20170320
 # Create + mapping data + button ADD :
-* Create ionic_contactlist project
+# Create ionic_contactlist project
 # Install AngularFire2 :
 * `npm install angularfire2 --save`
 # Initialize firebase by going to src/app/app.module.ts
@@ -21,3 +21,23 @@ Ionic + Angular2 + Typescript +FireBase practice
     * `storageBucket: "",`
     * `messagingSenderId: "609067141823"`
     * `};`
+ # Initialize to @NgModule:
+* `@NgModule({`
+* `declarations: [`
+*  ` MyApp,`
+*   ` HomePage`
+* `],`
+* `imports:` [
+*  ` IonicModule.forRoot(MyApp),`
+*  ` AngularFireModule.initializeApp(firebaseConfig)`
+* ` ],`
+* ` bootstrap: [IonicApp],`
+* ` entryComponents: [`
+*  ` MyApp,`
+*  ` HomePage`
+* ` ],`
+* `providers: [`
+*  ` {provide: ErrorHandler, useClass: IonicErrorHandler}`
+* ` ]`
+* ` })`
+* ` export class AppModule {}`
