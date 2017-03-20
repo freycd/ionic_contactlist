@@ -45,5 +45,9 @@ Ionic + Angular2 + Typescript +FireBase practice
  The file needs 2 things in week1 :
 * A button to create a contact.
 * To show the list of songs stored in Firebase.
-* A button to edit/delete songs.
-  
+* Open home.html and inside the `<ion-navbar>` just after the `<ion-title>` add :
+* `<ion-buttons end>`
+*  `<button ion-button icon-only (click)="addSong()">`
+*    `<ion-icon name="add"></ion-icon>`
+*  `</button>`
+* `</ion-buttons>`
