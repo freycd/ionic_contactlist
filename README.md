@@ -2,10 +2,10 @@
 Ionic + Angular2 + Typescript +FireBase practice
 # 20170320
 # Create + mapping data + button ADD :
-# Create ionic_contactlist project
-# Install AngularFire2 :
+### Create ionic_contactlist project
+### Install AngularFire2 :
 * `npm install angularfire2 --save`
-# Initialize firebase by going to src/app/app.module.ts
+### Initialize firebase by going to src/app/app.module.ts
 * `import { NgModule, ErrorHandler } from '@angular/core';`
 * `import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';`
 * `import { MyApp } from './app.component';`
@@ -21,7 +21,7 @@ Ionic + Angular2 + Typescript +FireBase practice
     * `storageBucket: "",`
     * `messagingSenderId: "609067141823"`
     * `};`
- # Initialize to @NgModule:
+ ### Initialize to @NgModule:
 * `@NgModule({`
 * `declarations: [`
 *  ` MyApp,`
@@ -41,3 +41,9 @@ Ionic + Angular2 + Typescript +FireBase practice
 * ` ]`
 * ` })`
 * ` export class AppModule {}`
+ ### Start adding functionality
+ The file needs 2 things in week1 :
+* A button to create a contact.
+* To show the list of songs stored in Firebase.
+* A button to edit/delete songs.
+  
