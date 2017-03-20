@@ -11,7 +11,7 @@ Ionic + Angular2 + Typescript +FireBase practice
 * `import { MyApp } from './app.component';`
 * `import { HomePage } from '../pages/home/home';`
 * // Import the AF2 Module
-* `import { AngularFireModule } from 'angularfire2';` 
+   * `import { AngularFireModule } from 'angularfire2';` 
 * // AF2 Settings
    * `export const firebaseConfig = {`
     * `apiKey: "AIzaSyDnAX0CQbbsMYuOTJ66ox_F0GwzPM4XPXY",`
