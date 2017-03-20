@@ -2,7 +2,7 @@
 Ionic + Angular2 + Typescript +FireBase practice
 # 20170320
 # Create + mapping data + button ADD :
-### Create ionic_contactlist project
+* Create ionic_contactlist project
 ### Install AngularFire2 :
 * `npm install angularfire2 --save`
 ### Initialize firebase by going to src/app/app.module.ts
