@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      CONTACT LIST
+      BOX CONTACT LIST
     </ion-title>
     <ion-buttons end>
         <button ion-button icon-only (click)="addContact()">
@@ -12,12 +12,12 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>BOX CONTACT</h2>
   <ion-list>
     <ion-item *ngFor="let contact of contacts | async">
-        <p>Name : {{contact.name}}</p>
-        <p>Number :{{contact.number}}</p>
+        <h1>{{contact.name}}</h1>
+        <p>{{contact.number}}</p>
     </ion-item>
     
   </ion-list>
 </ion-content>
+ 
