@@ -4,6 +4,7 @@ import { NavController , AlertController ,  ActionSheetController} from 'ionic-a
 
 import {AngularFire, FirebaseListObservable} from 'angularfire2';
 
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
